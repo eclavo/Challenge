@@ -1,0 +1,247 @@
+.header{
+    height:100px;
+    font-family:Georgia;
+}
+
+.col-xs-1 {
+    /*background-color:blue;*/
+    color: white;
+    height: 100%;
+    padding-top: 10px;
+    /*padding-left:5px;*/
+    padding-bottom: 10px;
+    padding-right: 5px;
+    margin-left: -15px;
+}
+
+.logo {
+    height: 6em;
+    width: 6em;
+    padding-top: 10px;
+    /*padding-left:5px;*/
+    padding-bottom: 10px;
+    padding-right: 5px;
+    margin-left: -20px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+.inside_upper {
+    height: 50px;
+    padding: 10px;
+    color: black;
+}
+.inside_bottom {
+    height: 50px;
+    padding: 10px;
+    color: black;
+    border-top: 1px solid black;
+    /*background-color:orange;*/
+}
+.middle {
+    background-color: #111630;
+    color: white;
+    padding-left: 25px;
+    padding-right: 15px;
+    font-family:Raleway;
+}
+
+.featured_info {
+    height: 200px;
+}
+
+.featured_image {
+    width: 100%;
+}
+
+.featured_description {
+    margin-left: -30px;
+    height:400px;
+}
+
+.top_desc {
+    height: 56.8%;
+    background-color: #272e53;
+}
+
+.bottom_desc {
+    height: 64%;
+    background-color: #1d2655;
+}
+
+.btn-group {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left:30%;
+}
+.btn-group .btn+.btn, .btn-group .btn+.btn{
+    margin-left: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.btn-default {
+    padding-bottom:13px;
+    color: white;
+    border: 2px solid white;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#111630), color-stop(50%,#111630));
+    
+}
+.row {
+    margin-right: -15px;
+    margin-left: -25px;
+}
+ .featured_post {
+    height: 300px;
+}
+
+.post_image_left {
+    width: 50%;
+    min-height:300px;
+    /*color: #fff;*/
+    z-index:-1;
+    background-image: url('img/medium_still_2.jpg');
+   -webkit-filter: sepia(80%); /* Chrome, Safari, Opera */
+    filter: sepia(0%);
+}
+.post_text{
+    text-align:right;
+    font-size:15px;
+    color:#DCDCDC;
+    position: absolute;
+    bottom: 2px;
+    right: 13px;
+    font-family:Raleway;
+    z-index:2;
+}
+.post_image_right {
+    height: 100%;
+    background-image: url('img/medium_still.jpg');
+}
+.post_box_outer{
+    height:129px;
+    width:182px;
+    background-color:black;
+    margin-top: 50px;
+    /* border: 5px solid white; */
+    margin-left: 13px;
+    /*border: 5px solid white;*/
+}
+.post_box_inner{
+    height: 94%;
+    width: 114%;
+    background-color: black;
+    border: 5px solid white;
+    margin-right: -43px;
+    margin-top: 6px;
+    margin-left: -11px;
+    text-align:center;
+    padding:11px;
+    color:#DCDCDC;
+}
+
+
+.upcoming_background {
+    height: 273px;
+    /*background-color:green;*/
+}
+.background_text{
+    color:white;
+    font-family:Raleway;
+    position:absolute;
+    right:0;
+    left:0;
+    z-index:1;
+}
+.background_pics {
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+    -webkit-filter: greyscale(80%); /* Chrome, Safari, Opera */
+    /*filter: greyscale(80%);*/
+    z-index:-1;
+}
+
+.upcoming_left {
+    color: white;
+    height: 100%;
+    background-image: url("img/upcoming_1.png");
+    z-index: -1;
+}
+
+.upcoming_center {
+    color: white;
+    height: 100%;
+    background-image: url("img/upcoming_2.png");
+    z-index: -1;
+}
+
+.upcoming_right {
+    color: white;
+    height: 100%;
+    background-image: url("img/upcoming_3.png");
+}
+.upcoming_pic{
+    width: 57%;
+    margin-top: -59%;
+    margin-left: 20%;
+}
+ 
+.pic_1{
+    margin-left:52%;
+}
+.pic_3{
+    margin-left:-18%;
+    /*margin-top: -80%;*/
+    /*position:absolute;*/
+}
+.background-text{
+    position:inherit;
+    bottom:0;
+}
+
+.upcoming_titles{
+    margin-left: -3%;
+    height: 100px;
+}
+.upcoming_text{
+    position: absolute;
+    margin-top: -51px;
+    color: white;
+    margin-left:50px;
+    font-family:Raleway;
+    text-align:center;
+}
+.date{
+    height: 32px;
+    position: absolute;
+    width: 54px;
+    padding: 3px;
+    color: black;
+    margin-left: 138px;
+    font-family: Raleway;
+    background-color: #AEADAD;
+    margin-top: -141px;
+    font-weight:bold;
+    font-size: 23px;
+
+}
+.info {
+    /*height: 100px;*/
+    background-color: #ccc;
+    text-align: center;
+}
+.created{
+    height:50px;
+    color:black;
+    background-color:#c2c2c2;
+    text-align:center;
+    font-family:Georgia;
+    padding-top: 20px
+}
